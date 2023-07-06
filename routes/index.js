@@ -54,7 +54,7 @@ client.login(TOKEN);
 //   }
 // });
 
-router.get("/bot", async function (req, res, next) {
+router.get("/", async function (req, res, next) {
   res.send("Hello World!");
 });
 
